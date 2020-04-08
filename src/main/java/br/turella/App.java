@@ -4,7 +4,6 @@ public final class App {
     private App() {
     }
 
-
     public static void main(String[] args) {
         Lista lista = new Lista();
 
@@ -22,6 +21,5 @@ public final class App {
         removido = lista.removeEnd();
         System.out.println("Removido" + removido.getInfo());
         System.out.println(lista.show());
-
     }
 }

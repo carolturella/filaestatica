@@ -60,7 +60,6 @@ public class Lista {
             first = null;
         }
         return aux;
-
     }
 
     public String show(){
@@ -71,7 +70,6 @@ public class Lista {
             out += aux.getInfo() + ";";
             aux = aux.getProx();
         }
-
         return out;
     }
 
